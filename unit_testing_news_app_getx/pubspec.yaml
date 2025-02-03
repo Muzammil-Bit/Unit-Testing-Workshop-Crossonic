@@ -1,0 +1,27 @@
+name: unit_testing_news_app
+description: "A new Flutter project."
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.4 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_lorem: ^2.0.0
+  get: ^4.6.6
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  integration_test:
+    sdk: flutter
+
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  mocktail: ^1.0.4
+
+flutter:
+  uses-material-design: true
